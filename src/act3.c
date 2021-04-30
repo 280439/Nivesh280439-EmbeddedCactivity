@@ -21,7 +21,7 @@ void delay(void)
     TCCR0B|=(1<<CS00);
     TCNT0=0;
     sei();
-        if(TCNT0 >=191){
+        if(TCNT0 >=124){
             TCNT0=0;
         }
 }
