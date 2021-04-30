@@ -4,8 +4,8 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = src/act1.c\
-src/ADC.c\
-src/OutPWM.c\
+src/act2.c\
+src/act3.c\
 src/act4.c\
 main.c\
 
